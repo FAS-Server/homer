@@ -1,0 +1,101 @@
+---
+title: "打火石导航台"
+subtitle: "Homer"
+logo: "assets/img/fas.png"
+
+header: true
+footer: '<p>基于 <a href="https://github.com/bastienwirtz/homer/">Homer</a> 生成 | 部署于 <i class="fab fa-cloudflare"></i> <a href="https://cloudflare.com/">Cloudflare</a></p>' # set false if you want to hide it.
+
+columns: "3"
+connectivityCheck: false
+
+proxy:
+  useCredentials: false
+
+
+defaults:
+  layout: columns
+  colorTheme: auto
+
+theme: default
+colors:
+  light:
+    background-image: "assets/your/light/bg.png"
+  dark:
+    background-image: "assets/your/dark/bg.png"
+
+message:
+  style: "is-info"
+  title: "欢迎！"
+  icon: "fas fa-plane-arrival"
+  content: "迷路了么？下面是路标哦～"
+
+links: 
+  - name: "成员表"
+    icon: "fas fa-id-card"
+    url: "#stuff"
+  - name: "源代码"
+    icon: "fab fa-github"
+    url: "https://github.com/FAS-Server/homer"
+    target: "_blank"
+
+services:
+  - name: "自建服务"
+    icon: "fas fa-globe-asia"
+    items:
+      - name: "FAS 内网穿透"
+        logo: "assets/img/frp-logo.svg"
+        subtitle: "通过 frp 将内网服务暴露到公网"
+        url: "https://frp.fas-server.cn/"
+        target: "_blank"
+
+      - name: "FAS 网盘"
+        logo: "assets/img/dzz-logo.png"
+        subtitle: "一个团队协作网盘, 文件共享中心"
+        url: "http://pan.fas-server.cn:8081/"
+
+      - name: "FAS 地图"
+        logo: "assets/img/bluemap.png"
+        subtitle: "基于 Bluemap 实时生成的网页地图"
+        url: "http://map.fas-server.cn:8081/"
+
+      - name: "FAS 服务状态"
+        subtitle: "各服务在线状态监控"
+        logo: "assets/img/uptime-kuma.svg"
+        url: "https://status.fas-server.cn"
+
+  - name: "社交媒体"
+    icon: "fas fa-comment-alt"
+    items:
+      - name: "FAS"
+        subtitle: "FAS 拥抱开源"
+        logo: "assets/img/github-logo.svg"
+        tag: "github"
+        url: "https://github.com/FAS-Server"
+        target: "_blank"
+
+      - name: "FAS打火石服务器"
+        subtitle: "FAS 热爱分享"
+        logo: "assets/img/bilibili-logo.svg"
+        url: "https://space.bilibili.com/623748460"
+        tag: "bilibili"
+        target: "_blank"
+
+      - name: "打火石正版公益服"
+        subtitle: "来 Kook 语音聊天"
+        logo: "assets/img/kook_logo.png"
+        url: "https://kook.top/vqJlGd"
+        tag: "Kook"
+
+      - name: "打火石正版公益服务器"
+        subtitle: "309038229"
+        tag: "QQ 交流群"
+        logo: "assets/img/tencent-qq.svg"
+
+  - name: "赞助我们"
+    icon: "fas fa-heartbeat"
+    items:
+      - name: "支付宝"
+        logo: "assets/img/support-alipay.png"
+      - name: "微信"
+        logo: "assets/img/support-wechat.png"

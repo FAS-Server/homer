@@ -1,0 +1,89 @@
+---
+title: "成员列表"
+subtitle: "Homer"
+logo: "assets/img/fas.png"
+
+message:
+  style: "is-info"
+  title: "注意"
+  icon: "fas fa-info"
+  content: "各成员不分先后，按首字母顺序排序"
+
+links: 
+  - name: "导航台"
+    icon: "fas fa-home"
+    url: "#"
+  - name: "源代码"
+    icon: "fab fa-github"
+    url: "https://github.com/FAS-Server/homer"
+    target: "_blank"
+
+services:
+  - name: "管理人员"
+    icon: "fas fa-user-cog"
+    items:
+      - name: "WhitespaceOuO"
+        subtitle: "腐竹"
+        logo: "https://mc-heads.net/avatar/3feea203-9540-4705-a96e-aab6fa205714"
+        url: "https://space.bilibili.com/62886528"
+        target: "_blank"
+
+  - name: "审核组"
+    icon: "fas fa-user-shield"
+    items:
+      - name: "are_you_crazy6"
+        subtitle: ""
+        logo: "https://mc-heads.net/avatar/b21a506c-d2aa-4031-9edd-a74a7de9948d"
+        url: "https://space.bilibili.com/20909341"
+        target: "_blank"
+
+      - name: "DRmiaojun"
+        subtitle: ""
+        logo: "https://mc-heads.net/avatar/fe7dea40-c9c2-489b-8dfb-47b73ad51516"
+        url: "https://space.bilibili.com/364667825"
+        target: "_blank"
+        tag: "团宠"
+
+      - name: "Laosp_leimu"
+        subtitle: ""
+        logo: "https://mc-heads.net/avatar/d8fe95ca-3317-4822-ac15-330f68b7b562"
+        url: "https://space.bilibili.com/207649313"
+
+      - name: "Qian_Ye_"
+        subtitle: ""
+        logo: "https://mc-heads.net/avatar/37ca04d3-1ae0-4a83-8607-907bccfeafc8"
+        url: "https://space.bilibili.com/15098702"
+        target: "_blank"
+
+      - name: "Youmiel"
+        subtitle: ""
+        logo: "https://mc-heads.net/avatar/ee58c035-a357-4fcc-8f6c-666057fcb9d0"
+        url: "https://space.bilibili.com/454002796"
+        target: "_blank"
+
+  - name: "技术支持"
+    icon: "fas fa-wrench"
+    items:
+      - name: "Nine_King"
+        subtitle: "设备供应, 运维"
+        logo: "https://mc-heads.net/avatar/74bad425-d075-45f2-9455-246b3b13cb89"
+        url: "https://space.bilibili.com/32649163"
+        target: "_blank"
+
+      - name: "Noarii"
+        subtitle: "设备供应"
+        logo: "https://mc-heads.net/avatar/a4dc1722-5706-4c9b-ac48-73efd665137c"
+        url: "https://space.bilibili.com/295716616"
+        target: "_blank"
+
+      - name: "Youmiel"
+        subtitle: "开发"
+        logo: "https://mc-heads.net/avatar/ee58c035-a357-4fcc-8f6c-666057fcb9d0"
+        url: "https://space.bilibili.com/454002796"
+        target: "_blank"
+
+      - name: "401Unauthorized"
+        subtitle: "设备供应, 运维, 开发"
+        logo: "https://mc-heads.net/avatar/0c3d72f4-eab5-4223-bfe2-26cd8af4bd56"
+        url: "https://space.bilibili.com/54438788"
+        target: "_blank"

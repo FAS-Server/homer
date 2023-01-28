@@ -53,16 +53,19 @@ services:
         logo: "assets/img/dzz-logo.png"
         subtitle: "一个团队协作网盘, 文件共享中心"
         url: "http://pan.fas-server.cn:8081/"
+        target: "_blank"
 
       - name: "FAS 地图"
         logo: "assets/img/bluemap.png"
         subtitle: "基于 Bluemap 实时生成的网页地图"
         url: "http://map.fas-server.cn:8081/"
+        target: "_blank"
 
       - name: "FAS 服务状态"
         subtitle: "各服务在线状态监控"
         logo: "assets/img/uptime-kuma.svg"
         url: "https://status.fas-server.cn"
+        target: "_blank"
 
   - name: "社交媒体"
     icon: "fas fa-comment-alt"
@@ -86,17 +89,23 @@ services:
         logo: "assets/img/kook_logo.png"
         url: "https://kook.top/vqJlGd"
         tag: "Kook"
+        target: "_blank"
 
       - name: "打火石正版公益服务器"
         subtitle: "309038229"
         tag: "QQ 交流群"
         url: "https://jq.qq.com/?_wv=1027&k=H83GDvbh"
         logo: "assets/img/tencent-qq.svg"
+        target: "_blank"
 
   - name: "赞助我们"
     icon: "fas fa-heartbeat"
     items:
       - name: "支付宝"
         logo: "assets/img/support-alipay.png"
+        url: "assets/img/support-alipay.png"
+        target: "_blank"
       - name: "微信"
         logo: "assets/img/support-wechat.png"
+        url: "assets/img/support-wechat.png"
+        target: "_blank"

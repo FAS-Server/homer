@@ -90,6 +90,7 @@ services:
       - name: "打火石正版公益服务器"
         subtitle: "309038229"
         tag: "QQ 交流群"
+        url: "https://jq.qq.com/?_wv=1027&k=H83GDvbh"
         logo: "assets/img/tencent-qq.svg"
 
   - name: "赞助我们"
